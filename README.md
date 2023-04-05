@@ -1,1 +1,3 @@
-# Tecnicatura_Clases_2doAnio
+# Tecnicatura_Programacion :heart: :heart:
+
+Todas las clases de Java, Python y JavaScript.
