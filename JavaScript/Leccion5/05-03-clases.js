@@ -1,4 +1,4 @@
-//Clase 6 Clases
+//Clase 6 Clases Parte 1
 //6.1 Sintaxis de Clases en JavaScript: Parte 1 y 2
 
 //let persona3 = new Persona('Martin', 'Perez');
@@ -21,6 +21,17 @@ class Persona{
     }
     set apellido(apellido){
         this._apellido = apellido;
+    }
+    nombreCompleto(){
+        return this._nombre + ' ' + this._apellido;
+    }
+      //Sobreescribiendo el metodo de la clase Padre (Object) 
+      toString(){//regresa un String
+        //Se aplica polimorfismo que significa = multiples formas en tiempo de ejecucion
+        //el metodo que se ejecuta depende si es una referencia de tipo padre o hijo 
+        //(o sea del objeto al cual apunta) 
+        
+        return this.nombreCompleto();
     }
 }
 
@@ -53,12 +64,31 @@ class Empleado extends Persona{
     }
     get departamento(){
         return this._departamento;
-    }
+    } 
     set departamento(departamento){
         this._departamento = departamento;
     }
+    //Sobreescritura
+    nombreCompleto(){
+    return super.nombreCompleto() + ', ' + this._departamento;
+    }
 }
 
-let empleado1 = new Empleado('Maria', 'Jimenez', 'Sistemas');
+/* let empleado1 = new Empleado('Maria', 'Jimenez', 'Sistemas');
 console.log(empleado1);
-console.log(empleado1.nombre);
+console.log(empleado1.nombre); */
+
+//Clase 7 Clases Parte 2
+//7.1 Heredar métodos, metodo en linea 25
+
+let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
+console.log(empleado1);
+console.log(empleado1.nombreCompleto());
+
+//7.2 Sobreescritura, metodo en linea 64
+
+//7.3 Clase Object, toString, sobreescritura y Polimorfismo
+Object.prototype.toString(); //Esta es la manera de acceder a atributos y metodos de manera dinamica
+
+console.log( persona1.toString());
+console.log( empleado1.toString());
