@@ -141,7 +141,7 @@ console.log( Empleado.contadorObjetosPersona );
 console.log( persona1.email );
 console.log( empleado1.email );
 console.log( Persona.email);//no se puede acceder desde la clase persona
-console.log( Empleado.email);//no se puede acceder desde la clase persona
+console.log( Empleado.email);//no se puede acceder desde la clase empleado
 
 //8.4 Uso de la palabra static: Parte 1 y 2, linea 23
 
