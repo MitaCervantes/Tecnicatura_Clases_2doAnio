@@ -10,10 +10,11 @@ public class Estudiante {
     public Estudiante (){}; //Constructor vacio
 
     public Estudiante(int idEstudiante){ //Constructor para la llave primaria
+
         this.idEstudiante = idEstudiante;
     }
 
-    public Estudiante (String nombre, String apellido, String telefono, String email){
+    public Estudiante (String nombre, String Apellido, String telefono, String email){
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
