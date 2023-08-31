@@ -1,4 +1,4 @@
-[
+const products = [
     {
       "id": 1,
       "productName": "Banana",
@@ -41,4 +41,5 @@
       "quantity": 1,
       "img": ""
     }
-  ]
+  ];
+
