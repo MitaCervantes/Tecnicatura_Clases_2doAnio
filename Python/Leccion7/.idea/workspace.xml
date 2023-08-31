@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a298ecb-848e-4f2e-b97e-5eab754b77c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
