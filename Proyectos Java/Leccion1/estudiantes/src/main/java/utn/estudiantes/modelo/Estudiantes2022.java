@@ -16,7 +16,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Estudiante {
+public class Estudiantes2022 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idEstudiante;
